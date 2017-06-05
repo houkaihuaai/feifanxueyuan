@@ -1,11 +1,119 @@
 <!DOCTYPE html>
 <html>
+
 	<head>
 		<meta charset="utf-8" />
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/font-awesome.css" />
 		<title></title>
 	</head>
+
 	<body>
-		锦亭要下雨
-可是我没有拿伞
+		<div class="top">
+			<div class="w">
+				<ul class="ding left">
+					<li>
+						<a href="#">首页</a>
+					</li>
+					<li>
+						<a href="#">学院介绍 <span class="fa fa-angle-down"></span></a>
+						<ul class="erji">
+							<li>
+								<a href="#">学院简介</a>
+							</li>
+							<li>
+								<a href="#">文化风采</a>
+							</li>
+							<li>
+								<a href="#">办学特色</a>
+							</li>
+							<li>
+								<a href="#">发展历程</a>
+							</li>
+							<li>
+								<a href="#">新闻媒体</a>
+							</li>
+							<li>
+								<a href="#">校区分布</a>
+							</li>
+							<li>
+								<a href="#">加入我们</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">课程导航 <span class="fa fa-angle-down"></a></li>
+					<li><a href="#">师资力量  <span class="fa fa-angle-down"></a></li>
+					<li><a href="#">学员作品  <span class="fa fa-angle-down"></a></li>
+					<li><a href="#">考证学历 <span class="fa fa-angle-down"></a></li>
+					<li><a href="#">就业信息  <span class="fa fa-angle-down"></a></li>
+					<li><a href="#">学习资讯  <span class="fa fa-angle-down"></a></li>
+					<li><a href="#">入学须知  <span class="fa fa-angle-down"></a></li>
+			</ul>
+			<ul class="weixin right">
+				<li>
+					<a href="#"><img src="img/wx.png"/></a>
+					<div class="erweima">
+						<img src="img/wx2.jpg"/>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+	     <div class="header w">
+	     	<div class="logo left">
+	     		<img src="img/logo.png"/>
+	     	</div>
+	     	<div class="wenzi left">教育领先品牌</div>
+	     	<div class="photo right">
+	     		<ul>
+					<li><span class="fa fa-trophy"></span>源自名校</li>
+					<li><span class="fa fa-thumbs-up"></span>学院资质</li>
+					<li><span class="fa fa-television"></span>专注12年</li>
+					<li class="phone-400"><span class="fa fa-phone-square"></span>400-616-2336</li>
+				</ul>
+			</div>
+		</div>
+		<div class="banner w">
+			<ul>
+				<li><img src="img/1200-350-1.jpg"></li>
+				<li><img src="img/1200-350-2.jpg"></li>
+				<li><img src="img/1200-350-6.jpg"></li>
+				<li><img src="img/1200-350-7.jpg"></li>
+				<li><img src="img/1423-300-9.jpg"></li>
+			</ul>
+
+			<div class="points"></div>
+		</div>
+		<div class="text w">
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+		
+		<script type="text/javascript" src="js/jquery-2.1.0.js"></script>
+		<script type="text/javascript">
+			var imges = $(".banner li");
+			var imgesCount = imges.length;
+			var index = 0;
+			for(var i = 0; i < imgesCount; i++) {
+				$(".points").append("<span class='point'></span>")
+			}
+			$(".points").css("margin-left","-"+($(".points").width()/2)+"px").children().eq(0).addClass("active");
+			var points = $(".points span");
+			setInterval(function(){
+				imges.eq(index).fadeOut(300);
+				index = (index+1)%imgesCount;
+				imges.eq(index).fadeIn(300);
+				points.removeClass("active").eq(index).addClass("active");
+				
+			},1000);
+		</script>
 	</body>
+
 </html>

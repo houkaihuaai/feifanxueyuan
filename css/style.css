@@ -1,0 +1,214 @@
+.w {
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background-color: #fff;
+	font-size: 14px;
+	color: #333333;
+	font-family: "arial, helvetica, sans-serif";
+}
+
+a {
+	color: #333;
+	text-decoration: none;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.clear:after {
+	display: block;
+	content: " ";
+	clear: both;
+}
+
+.top {
+	font-size: 12px;
+	min-width: 1200px;
+	height: 38px;
+	line-height: 38px;
+	background-color: #e1f3fd;
+}
+
+.top li {
+	float: left;
+	list-style: none;
+	padding: 0 11px;
+	position: relative;
+}
+
+.top li span.fa {
+	color: #D82936;
+}
+
+.top li:hover span.fa:before {
+	content: "\f106";
+}
+
+.top li:hover {
+	background-color: gainsboro;
+}
+
+.top li:hover .erji {
+	display: block;
+}
+
+.top .erji {
+	position: absolute;
+	top: 38px;
+	left: 0px;
+	width: 100px;
+	text-align: center;
+	background-color: gainsboro;
+	display: none;
+	z-index: 9999;
+}
+
+.top .erji li {
+	width: inherit;
+	padding: 0;
+}
+
+.top .erji li:hover {
+	background-color: #e1f3fd;
+}
+
+.top .erji li:hover a {
+	color: #d82936;
+}
+
+.top .weixin li {
+	height: 38px;
+	padding-top: 6px;
+	box-sizing: border-box;
+}
+
+.top .weixin li:hover {
+	background-color: #e1f3fd;
+}
+
+.top .weixin li:hover .erweima {
+	display: block;
+}
+
+.top .erweima {
+	display: none;
+	top: 38px;
+	right: 0px;
+	position: absolute;
+	width: 110px;
+	height: 110px;
+}
+
+.top .erweima img {
+	width: inherit;
+	height: inherit;
+}
+
+.header {
+	height: 114px;
+	padding: 24px 0;
+	box-sizing: border-box;
+	background-color: yellow;
+}
+
+.header .logo {
+	height: 70px;
+}
+
+.header .logo img {
+	height: 70px;
+}
+
+.header .wenzi {
+	font-size: 16px;
+	line-height: 70px;
+	margin-left: 32px;
+}
+
+.header ul {
+	line-height: 70px;
+	list-style: none;
+}
+
+.header ul li {
+	float: left;
+	font-size: 16px;
+	margin-right: 36px;
+}
+
+.header li span.fa {
+	font-size: 30px;
+	color: #efc15f;
+	margin-right: 8px;
+}
+
+.header li.phone-400 {
+	font-size: 18px;
+}
+
+.header li.phone-400 span {
+	font-size: 25px;
+	color: #dd2527;
+}
+
+.banner {
+	height: 350px;
+	background-color: black;
+	position: relative;
+}
+.banner ul{
+	list-style: none;
+}
+.banner ul li{
+	width: 100%;
+	height: 350px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	display: none;
+}
+.banner ul li:first-child{
+	display: block;
+}
+.banner ul li img{
+	width: inherit;
+	height: inherit;
+}
+.banner .points{
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+}
+.banner .points span{
+	
+		display: block;
+	float: left;
+	width: 12px;
+	height: 12px;
+	margin: 0 6px;
+	border-radius: 50%;
+	border: solid 1px #FFFFFF;
+}
+.banner .points span.active{
+	border-color:#de2824;
+	background-color: #de2824;
+}
+.text{
+	height: 456px;
+	background-color: green;
+	margin-top: 26px;
+}
