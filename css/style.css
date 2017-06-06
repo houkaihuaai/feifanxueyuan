@@ -207,8 +207,57 @@ a {
 	border-color:#de2824;
 	background-color: #de2824;
 }
-.text{
-	height: 456px;
-	background-color: green;
-	margin-top: 26px;
+.class{
+	height: 450px;
+	/*background-color: yellow;*/
+	position: relative;
+	margin-top: 28px;
+}
+.class > div{
+	height: inherit;
+}
+
+.class .class-news{
+	padding-left:240px;
+	padding-right: 228px;
+}
+
+.class .class-list{
+	width: 220px;
+	/*background-color: red;*/
+	position: absolute;
+	left: 0px;
+	top: 0;
+}
+
+.class .class-list ul{
+	
+}
+.class .class-list ul li{
+	padding-left: 20px;
+	line-height: 45px;
+    list-style: none;
+	height:45px;
+	box-sizing: border-box;
+	border-left: solid 1px #d8d8d8;
+	border-right:solid 1px #d8d8d8 ;
+	border-bottom: solid  1px #d8d8d8;
+}
+.class .class-list a{
+	font-size: 14px;
+	color: #333333;
+}
+.class .class-list li:first-child{
+	border-left:none;
+	border-right:none;
+	background-color: #dd2726;
+	color: #FFFFFF;
+}
+
+.class .class-hot{
+	width: 200px;
+	background-color: blue;
+	position: absolute;
+	top: 0px;
+	right: 0px;
 }
