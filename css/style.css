@@ -879,3 +879,25 @@ a {
 	background-color: rgba(0,0,0,0.5);
 	color: #FFFFFF;
 }
+/*底部*/
+.bottom{
+	height: 649px;
+	background-color: gainsboro;
+}
+.bottom .shang{
+	height: 135px;
+	background-color: red;
+	border-bottom: solid 1px gray;
+	padding-top: 50px;
+	padding-bottom: 40px;
+	box-sizing: border-box;
+}
+.bottom .zhong{
+	height: 380px;
+	background-color: blue;
+	border-bottom: solid 1px gray;
+}
+.bottom .xia{
+	height: 138px;
+	background-color: yellow;
+}
