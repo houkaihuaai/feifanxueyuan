@@ -790,3 +790,92 @@ a {
 	font-size: 12px;
 	text-align: center;
 }
+/*校区分布*/
+.fenbu{
+	height: 208px;
+	/*background-color: red;*/
+	margin-top:28px ;
+}
+.fenbu p{
+	line-height: 50px;
+	font-size: 22px;
+	margin-bottom: 10px;
+}
+.fenbu ul li{
+	height: 68px;
+	width: 300px;
+	padding: 10px;
+	margin-bottom: 15px;
+    list-style: none;
+	float: left;
+	box-sizing: border-box;
+	/*background-color: white;*/
+}
+.fenbu .fenbu-1{
+	padding: 0 10px;
+	font-size: 18px;
+}
+.fenbu .febvu-2{
+	padding: 10px;
+	padding-top: 5px;
+	border-left:solid 1px gray ;
+	font-size: 12px;
+	height: 2em;
+}
+/*合作企业*/
+.qiye{
+	height: 150px;
+	/*background-color: red;*/
+	margin-top:20px ;
+}
+.qiye p{
+	font-size: 22px;
+	line-height: 50px;
+}
+.qiye .img{
+	height: 100px;
+	/*background-color: blue;*/
+	margin: 0px;
+	padding: 0px;
+}
+.qiye .img .zuo{
+	width: 40px;
+	height: 70px;
+	background-color: white;
+	margin: 15px 5px;
+	text-align: center;
+}
+.qiye .img .zuo:hover{
+	background-color: rgba(0,0,0,0.5);
+	color: #FFFFFF;
+}
+.qiye .img .img-new{
+	width: 1100px;
+	height: 100px;
+	background-color: white;
+}
+.qiye .img .img-new ul{
+	width: inherit;
+	height: inherit;
+	overflow: hidden;
+}
+.qiye .img .img-new ul li{
+	width: 170px;
+	height: 80px;
+	float: left;
+	margin: 10px 5px;
+	list-style: none;
+	border: solid 1px gainsboro;
+	
+}
+.qiye .img .you{
+	width: 40px;
+	height: 70px;
+	background-color: white;
+	margin: 15px 5px;
+	text-align: center;
+}
+.qiye .img .you:hover{
+	background-color: rgba(0,0,0,0.5);
+	color: #FFFFFF;
+}
