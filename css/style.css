@@ -674,11 +674,11 @@ a {
 .jiuyemingxing{
 	height: 278px;
 	margin-top: 28px;
-	background-color: blue;
+	/*background-color: blue;*/
 }
 .jiuyemingxing .titie{
 	height: 42px;
-	background-color: red;
+	/*background-color: red;*/
 }
 .jiuyemingxing .titie span{
 	margin: 0px;
@@ -687,18 +687,39 @@ a {
 .jiuyemingxing .liebiao{
 	height: 228px;
 	margin-top: 8px;
-	background-color: yellow;
+	background-color: #f3f3f3;
 }
 .jiuyemingxing .liebiao .zuo{
 	width: 72px;
 	margin: 0px;
-	background-color: green;
+	background-color: #f3f3f3;
+	height: inherit;
+}
+.jiuyemingxing .liebiao .zuo-1{
+	width: 50px;
+	height: 70px;
+	color: gray;
+	background-color: #f3f3f3;
+	margin: auto;
+	margin-top: 79px;
+	text-align: center;
+	/*display: none;*/
+}
+.jiuyemingxing .liebiao .zuo-1:hover{
+	background-color: rgba(0,0,0,0.5);
+	color: #FFFFFF;
+}
+
+.jiuyemingxing .liebiao .you{
+	width: 72px;
+	margin: 0px;
+	background-color:#f3f3f3;
 	height: inherit;
 }
 .jiuyemingxing .liebiao .coment{
 	width: 1056px;
 	margin: 0px;
-	background-color: white;
+	background-color:#f3f3f3;
 	height: inherit;
 }
 .jiuyemingxing .liebiao .coment .img{
@@ -710,13 +731,15 @@ a {
 	padding: 25px;
 	box-sizing: border-box;
 }
+
+
 .jiuyemingxing .liebiao .coment .img img{
 	width:inherit;
 	border-radius: 50%;
 }
 .jiuyemingxing .liebiao .coment ul{
 	height: 228px;
-	background-color: yellow;
+	background-color: #f3f3f3;
 	display: none;
 }
 .jiuyemingxing .liebiao .coment ul:first-child{
@@ -725,7 +748,7 @@ a {
 .jiuyemingxing .liebiao .coment ul li{
 	list-style: none;
 	width: 320px;
-	background-color: bisque;
+	background-color: #f3f3f3;
 	margin-left: 16px;
 	margin-right: 16px;
 	height: inherit;
@@ -733,8 +756,37 @@ a {
 }
 .jiuyemingxing .liebiao .coment .text p{
 	margin: 24px 0px;
-	line-height: em;
+	line-height: 1.5em;
+	color:gray;
+	font-size: 12px;
 }
 .jiuyemingxing .liebiao .coment .text p:first-child{
 	margin-top: 10px;
+	color: #000000;
+	font-size: 14px;
+}
+/*非凡荣誉*/
+.rongyu{
+	height: 488px;
+	/*background-color: gray;*/
+	margin-top: 28px;
+}
+.rongyu p{
+	font-size: 22px;
+	line-height: 50px;
+}
+.rongyu ul{
+	
+}
+.rongyu ul li{
+	width: 300px;
+	height: 189px;
+	margin-bottom: 30px;
+	float: left;
+	list-style: none;
+	text-align: center;
+}
+.rongyu ul li p{
+	font-size: 12px;
+	text-align: center;
 }
