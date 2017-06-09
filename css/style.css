@@ -451,7 +451,7 @@ a {
 .new-class .class-info li {
 	margin-top: 26px;
 	margin-right: 18px;
-	padding: 8px;
+	/*padding: 8px;*/
 	box-sizing: border-box;
 	float: left;
 	list-style: none;
@@ -460,7 +460,9 @@ a {
 	margin-right: 40px;
 	/*background-color: #FFF0F0;*/
 }
-
+.new-class .class-info li:hover .hoot{
+	border: solid 1px gainsboro;
+} 
 .new-class .class-info ul li:last-child {
 	margin-right: 0;
 }
@@ -474,6 +476,12 @@ a {
 .new-class .class-info .img img {
 	width: inherit;
 	height: inherit;
+}
+.new-class .class-info .hoot{
+
+	width: 250px;
+	padding-right:0px;
+	
 }
 
 .new-class .class .neirong {
@@ -665,6 +673,68 @@ a {
 }
 .jiuyemingxing{
 	height: 278px;
-	margin-top: 48px;
+	margin-top: 28px;
 	background-color: blue;
+}
+.jiuyemingxing .titie{
+	height: 42px;
+	background-color: red;
+}
+.jiuyemingxing .titie span{
+	margin: 0px;
+	padding: 0px;
+}
+.jiuyemingxing .liebiao{
+	height: 228px;
+	margin-top: 8px;
+	background-color: yellow;
+}
+.jiuyemingxing .liebiao .zuo{
+	width: 72px;
+	margin: 0px;
+	background-color: green;
+	height: inherit;
+}
+.jiuyemingxing .liebiao .coment{
+	width: 1056px;
+	margin: 0px;
+	background-color: white;
+	height: inherit;
+}
+.jiuyemingxing .liebiao .coment .img{
+	width: 74px;
+	margin-top:60px;
+}
+.jiuyemingxing .liebiao .coment .text{
+	width: 240px;
+	padding: 25px;
+	box-sizing: border-box;
+}
+.jiuyemingxing .liebiao .coment .img img{
+	width:inherit;
+	border-radius: 50%;
+}
+.jiuyemingxing .liebiao .coment ul{
+	height: 228px;
+	background-color: yellow;
+	display: none;
+}
+.jiuyemingxing .liebiao .coment ul:first-child{
+	display: block;
+}
+.jiuyemingxing .liebiao .coment ul li{
+	list-style: none;
+	width: 320px;
+	background-color: bisque;
+	margin-left: 16px;
+	margin-right: 16px;
+	height: inherit;
+	float: left;
+}
+.jiuyemingxing .liebiao .coment .text p{
+	margin: 24px 0px;
+	line-height: em;
+}
+.jiuyemingxing .liebiao .coment .text p:first-child{
+	margin-top: 10px;
 }
