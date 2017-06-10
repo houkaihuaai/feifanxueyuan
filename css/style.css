@@ -122,7 +122,7 @@ a {
 	height: 114px;
 	padding: 24px 0;
 	box-sizing: border-box;
-	background-color: yellow;
+	/*background-color: yellow;*/
 }
 
 .header .logo {
@@ -216,7 +216,7 @@ a {
 
 .class {
 	height: 450px;
-	background-color: yellow;
+	/*background-color: yellow;*/
 	position: relative;
 	margin-top: 28px;
 }
@@ -229,10 +229,86 @@ a {
 	padding-left: 240px;
 	padding-right: 228px;
 }
-
+.class .class-news .top-1{
+	height: 33px;
+	/*background-color: red;*/
+	line-height: 33px;
+	border-bottom: solid 1px gray;
+	position: relative;
+font-size: 18px;
+}
+.class .class-news .top-1 ul{
+	
+}
+.class .class-news .top-1 ul li{
+	list-style: none;
+	float: left;
+	padding: 0px 16px;
+}
+.class-news .liner {
+	width: 100px;
+	height: 2px;
+	position: absolute;
+	background-color: #db272a;
+	left: 0px;
+	bottom: -1px;
+}
+.class .class-news .top-2{
+	height: 420px;
+	background-color: white;
+	padding: 5px;
+	padding-top: 20px;
+	color: #9e9da5;
+	box-sizing: border-box;
+	line-height: 1.5em;
+}
+.class .class-news .top-2 ul{
+	list-style: none;
+	float: left;
+	display: none;
+}
+.class .class-news .top-2 ul:first-child{
+	display: block;
+}
+.class .class-news .top-2 ul li{
+	width: 340px;
+	height: 70px;
+	margin: 15px 10px;
+	/*background-color: red;*/
+	float: left;
+}
+.class .class-news .top-2 .nei-1{
+	width: 50px;
+	height: 70px;
+	/*background-color: gold;*/
+	text-align: center;
+}
+.class .class-news .top-2 .nei-1 img{
+	width: 50px;
+	border-radius:50% ;
+	
+}
+.class .class-news .top-2 .nei-2{
+	height: 70px;
+	width: 280px;
+	/*background-color: yellowgreen;*/
+}
+.class .class-news .top-2 .nei-2 .nei-new{
+	height: 20px;
+	margin-bottom: 10px;
+	font-size: 14px;
+	/*background-color: red;*/
+}
+.class .class-news .top-2 .nei-2 .nei-new a:hover{
+	color: red;
+}
+.class .class-news .top-2 .nei-2 .nei-hot{
+	height: 40px;
+	font-size: 10px;
+}
 .class .class-list {
 	width: 220px;
-	background-color: red;
+	/*background-color: red;*/
 	position: absolute;
 	left: 0px;
 	top: 0;
@@ -287,7 +363,7 @@ a {
 	box-sizing: border-box;
 	top: 41px;
 	left: 220px;
-	background-color: green;
+	background-color: #dcd9d9;
 }
 
 .class .erjicaidan-list ul {
@@ -312,7 +388,7 @@ a {
 	border-top: 1px solid gray;
 	background: none;
 	font-size: 12px;
-	color: #999;
+	color: #333;
 }
 
 .class .class-hot {
@@ -520,7 +596,9 @@ a {
 	left: 0;
 	z-index: 10;
 }
-
+.new-class .biaodan table tr:first-child{
+	border-bottom: solid 2px gray;
+}
 .new-class ul.news-list {
 	position: absolute;
 	top: 0;
