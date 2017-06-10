@@ -883,21 +883,81 @@ a {
 .bottom{
 	height: 649px;
 	background-color: gainsboro;
+	margin-top: 28px;
 }
 .bottom .shang{
 	height: 135px;
-	background-color: red;
+	/*background-color: red;*/
 	border-bottom: solid 1px gray;
 	padding-top: 50px;
 	padding-bottom: 40px;
 	box-sizing: border-box;
 }
+.bottom .shang ul{}
+.bottom .shang ul li{
+	width: 200px;
+	margin: 0px;
+	padding: 0px;
+	height: 44px;
+	float: left;
+	list-style: none;
+}
+.bottom .shang .di-1{
+	margin-right: 20px;
+}
+.bottom .shang .di-2 p{
+	font-size: 14px;
+	color: #4e4e4e;
+}
+.bottom .shang .di-2 span{
+	font-size: 12px;
+	color: #999999;
+}
 .bottom .zhong{
 	height: 380px;
-	background-color: blue;
+	/*background-color: blue;*/
 	border-bottom: solid 1px gray;
+}
+.bottom .zhong .lie{
+	padding-top: 40px;
+	box-sizing: border-box;
+	width: 980px;
+	height: 380px;
+	/*background-color: red;*/
+}
+.bottom .zhong .lie ul li{
+	width: 140px;
+	list-style: none;
+	float: left;
+	line-height: 2em;
+}
+.bottom .zhong .lie p{
+	font-size: 14px;
+	color: #000000;
+}
+.bottom .zhong .lie a{
+	font-size: 12px;
+	color: #868686;
+}
+.bottom .zhong .lie a:hover{
+	color: red;
+}
+.bottom .zhong .lieb{
+	width: 220px;
+	/*background-color: yellow;*/
+	padding-top: 40px;
+	padding-left: 34px;
+	box-sizing: border-box;
+	line-height: 3em;
+	
 }
 .bottom .xia{
 	height: 138px;
-	background-color: yellow;
+	/*background-color: yellow;*/
+	text-align: center;
+	line-height: 2em;
+}
+.bottom .xia p{
+	font-size: 12px;
+	color: #868686;
 }

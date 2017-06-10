@@ -1374,11 +1374,18 @@
               	</div>
               </div>
               <!--这是底部-->
-              <div class="bottom">
+              <div id="bottom">
               	
               </div>
 		<script type="text/javascript" src="js/jquery-2.1.0.js"></script>
 		<script type="text/javascript">
+			$(document).ready(function(){
+			$("#bottom").load("bottom.html")	
+			});
+			
+			
+			
+			
 			var imges = $(".banner li");
 			var imgesCount = imges.length;
 			var index = 0;
@@ -1459,6 +1466,8 @@
 				$(".xueyuan .class-info ul").hide().eq(index).show();
 
 			});
+			
+			
 		</script>
 	</body>
 
