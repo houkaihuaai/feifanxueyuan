@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/font-awesome.css" />
+		<title></title>
+	</head>
+
+	<body>
+		<div id="header"></div>
+		<div class="neirongqu w">
+			<div class="daohang left">
+				<div class="tou">
+					<p>学习资讯<span class="fa fa-angle-down right" style="margin-top: 15px; font-size: 18px; color: red;"></span></p>
+				</div>
+				<ul>
+					<li>
+						<a href="#">平面ui行业</a>
+					</li>
+					<li>
+						<a href="#">网页设计行业</a>
+					</li>
+					<li>
+						<a href="#">室内景观行业</a>
+					</li>
+					<li>
+						<a href="#">电商网销行业</a>
+					</li>
+					<li>
+						<a href="#">机械模具行业</a>
+					</li>
+					<li>
+						<a href="#">服装设计行业</a>
+					</li>
+					<li>
+						<a href="#">网络工程行业</a>
+					</li>
+					<li>
+						<a href="#">企业内训资讯</a>
+					</li>
+				</ul>
+			</div>
+			<div class="text right">
+				<div class="biaoti">
+					<p class="left"><a href="#">网页设计行业</a></p>
+					<div class="sousuo right">
+						<form name="frmKey">
+							<input type="hidden" name="id1" value="374">
+							<input type="text" name="keywords" value="">
+							<a href="javascript:frmKey.submit();">搜索</a>
+						</form>
+					</div>
+
+				</div>
+					<h4>网页美工培训-国内人气最高的百度首页，原来背后的设计过程是这样的</h4>
+				
+			</div>
+		</div>
+		<div id="bottom"></div>
+		<script type="text/javascript" src="js/jquery-2.1.0.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$("#header").load("header.html");
+				$("#bottom").load("bottom.html");
+			});
+		</script>
+	</body>
+
+</html>

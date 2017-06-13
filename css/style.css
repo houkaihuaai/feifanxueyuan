@@ -1039,3 +1039,74 @@ font-size: 18px;
 	font-size: 12px;
 	color: #868686;
 }
+/*学习资讯业*/
+.neirongqu{
+	height: 1860px;
+}
+.neirongqu .daohang{
+	width: 220px;
+	height: 386px;
+	/*background-color: red;*/
+border: solid 1px #f6f6f6;
+	box-sizing: border-box;
+	
+}
+.neirongqu .daohang .tou{
+	height: 50px;
+	/*background-color: green;*/
+	line-height: 50px;
+	font-size: 18px;
+		padding: 0 26px;
+		border-bottom: solid 1px #f6f6f6;
+}
+.neirongqu .daohang ul{
+	list-style: none;
+	
+}
+.neirongqu .daohang ul li{
+	height: 42px;
+	line-height: 42px;
+	font-size: 12px;
+	background-color: white;
+	padding-left:26px ;
+	box-sizing: border-box;
+}
+.neirongqu .daohang ul li a{
+	font-size: 12px;
+	color:#51574b ;
+}
+.neirongqu .daohang a:hover{
+	color: #df1521;
+
+}
+.neirongqu .daohang li:hover{
+	background-color:#f3f3f3;
+	
+}
+.neirongqu .text{
+	width:950px;
+	height:1720px;
+	/*background-color: blue;*/
+	border: solid 1px #f6f6f6;
+	text-align: center;
+	line-height: 2em;
+}
+.neirongqu .text .biaoti{
+	height: 50px;
+	width: 950px;
+	padding: 0px 22px;
+	/*background-color: red;*/
+	box-sizing: border-box;
+	line-height: 50px;
+	position: relative;
+	border-bottom: solid 1px #f6f6f6;
+	float: left;
+	margin-bottom: 45px;
+}
+.neirongqu .text .biaoti a:hover{
+	color:#df1521 ;
+}
+.neirongqu .text .biaoti .sousuo{
+	position: absolute;top: 0px;
+	right:22px;
+}
