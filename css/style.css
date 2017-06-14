@@ -1085,23 +1085,24 @@ border: solid 1px #f6f6f6;
 }
 .neirongqu .text{
 	width:950px;
-	height:1720px;
+	height:1780px;
 	/*background-color: blue;*/
 	border: solid 1px #f6f6f6;
-	text-align: center;
+	/*text-align: center;*/
 	line-height: 2em;
 }
 .neirongqu .text .biaoti{
 	height: 50px;
 	width: 950px;
 	padding: 0px 22px;
+	font-size: 18px;
 	/*background-color: red;*/
 	box-sizing: border-box;
 	line-height: 50px;
 	position: relative;
 	border-bottom: solid 1px #f6f6f6;
-	float: left;
-	margin-bottom: 45px;
+	/*float: left;*/
+	/*margin-bottom: 45px;*/
 }
 .neirongqu .text .biaoti a:hover{
 	color:#df1521 ;
@@ -1109,4 +1110,36 @@ border: solid 1px #f6f6f6;
 .neirongqu .text .biaoti .sousuo{
 	position: absolute;top: 0px;
 	right:22px;
+}
+.neirongqu .text .zixun{
+	width: 906px;
+	margin: 0px 22px;
+	height: 160px;
+	border-bottom: solid 1px #9896a3;
+	position: relative;
+}
+.neirongqu .text .zixun .zuo-text{
+	width: 710px;
+	height: inherit;
+}
+.neirongqu .text .zixun .zuo-text a{
+	font-size: 16px;
+	line-height: 3.5em;
+}
+.neirongqu .text .zixun .zuo-text a:hover{
+	color: red;
+}
+.neirongqu .text .zixun .uo-img{
+	width: 126px;
+	height: inherit;
+	margin-left:64px;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+.neirongqu .text .zixun .uo-img img{
+	width: 126px;
+	height: 126px;
+	border-radius: 50%;
+	margin-top: 17px;
 }
