@@ -1047,7 +1047,7 @@ font-size: 18px;
 	width: 220px;
 	height: 386px;
 	/*background-color: red;*/
-border: solid 1px #f6f6f6;
+    border: solid 1px #f6f6f6;
 	box-sizing: border-box;
 	
 }
@@ -1085,7 +1085,7 @@ border: solid 1px #f6f6f6;
 }
 .neirongqu .text{
 	width:950px;
-	height:1780px;
+	height:1830px;
 	/*background-color: blue;*/
 	border: solid 1px #f6f6f6;
 	/*text-align: center;*/
@@ -1142,4 +1142,26 @@ border: solid 1px #f6f6f6;
 	height: 126px;
 	border-radius: 50%;
 	margin-top: 17px;
+}
+.neirongqu .text .qiehuan{
+	height: 170px;
+	/*background-color: red;*/
+	padding: 60px 0px;
+	box-sizing: border-box;
+	text-align: center;
+	
+}
+.neirongqu .text .qiehuan ul{
+	list-style: none;
+	margin-left: 209px;
+
+}
+.neirongqu .text .qiehuan ul li{
+	float: left;
+	width: 66px;
+	height: 40px;
+	border: solid 1px #9896A3;
+	line-height: 40px;
+	text-align: center;
+	margin: 0px 5px;
 }
