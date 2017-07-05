@@ -65,17 +65,22 @@
 .zhanshiqu .text .zhanshi{
 	height: 900px;
 	width: inherit;
+	list-style: none;
 	/*background-color: gold;*/
 }
-.zhanshiqu .text .zhanshi ul{
-	list-style: none;
+.zhanshiqu .text .zhanshi li{
+	float: left;
+	display: none;
+	
+	
 }
-.zhanshiqu .text .zhanshi ul li{
+.zhanshiqu .text .zhanshi li:first-child{
+	display: block;
+}
+.zhanshiqu .text .zhanshi .wenben{
 	float: left;
 	margin-left: 26px;
 	margin-top: 36px;
-}
-.zhanshiqu .text .zhanshi .wenben{
 	height: 260px;
 	width: 286px;
 	/*background-color: green;*/
@@ -109,7 +114,7 @@
 .zhanshiqu .text .qiehuan{
 	height: 170px;
 	/*background-color: red;*/
-	padding: 60px 0px;
+	padding: 80px 0px;
 	box-sizing: border-box;
 	text-align: center;
 	

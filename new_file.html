@@ -4,7 +4,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<link rel="stylesheet" type="text/css" href="css/style.css" />
-		<link rel="stylesheet" type="text/css" href="css/xuexizixun.css" />
+		<link rel="stylesheet" type="text/css" href="css/new_file.css" />
 		
 		<link rel="stylesheet" type="text/css" href="css/font-awesome.css" />
 		<title></title>
@@ -842,8 +842,8 @@
 			});
 
 			$(".qiehuan li").click(function() {
-			    var images = $(".text .image li"); //获取的是所有的li也就是所有的图片
-				var imageCount = images.length; //图片的数量
+			    var images = $(".text .image li"); //获取的是所有的li也就是所有的页面
+				var imageCount = images.length; //页面的数量
 				var index = $(this).index();
 				var offsetleft = $(this).offset().left - $(".qiehuan").offset().left;
 				var width = $(this).width();
@@ -854,20 +854,20 @@
                 
 					$(".qiehuan .next").click(function(){
 					//停止所有的动画
-					//$(":animated").stop(true, true);
-					images.eq(index).fadeOut(20); //前一张淡出
-					index = (index + 1) % imageCount; //下一张
-					images.eq(index).fadeIn(20); //下一张淡入
+					$(":animated").stop(true, true);
+					images.eq(index).fadeOut(20); //前一页淡出
+					index = (index + 1) % imageCount; //下一页
+					images.eq(index).fadeIn(20); //下一页淡入
 					points.removeClass("active").eq(index).addClass("active");
 				});
 				
 				//上一张
 				$(".qiehuan .prev").click(function(){
 					//停止所有的动画
-					//$(":animated").stop(true, true);
-					images.eq(index).fadeOut(10); //前一张淡出
-					index = (index + imageCount - 1) % imageCount; //上一张
-					images.eq(index).fadeIn(10); //下一张淡入
+					$(":animated").stop(true, true);
+					images.eq(index).fadeOut(10); //前一页淡出
+					index = (index + imageCount - 1) % imageCount; //上一页
+					images.eq(index).fadeIn(10); //下一页淡入
 					points.removeClass("active").eq(index).addClass("active");
 				});
 
